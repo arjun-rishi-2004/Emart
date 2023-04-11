@@ -1,4 +1,5 @@
 from django.contrib import admin
-from inventory_app.models import Products
+from inventory_app.models import Product,Cart
 # Register your models here.
-admin.site.register(Products)
+admin.site.register(Product)
+admin.site.register(Cart)
